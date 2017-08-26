@@ -1,0 +1,14 @@
+cmd: "/usr/bin/python"
+name: "MacOSX"
+args:
+  - main.py
+sh: true,
+cwd: /Users/eric/Documents/github/routeapp/
+errorMatch:
+  - ^regexp1$
+  - ^regexp2$
+warningMatch:
+  - ^regexp1$
+  - ^regexp2$
+keymap: <keymap string>
+atomCommandName: namespace:command
